@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  nuxt3-ssg-test:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    image: nuxt3_ssg_test:latest
+    ports:
+      - "3104:80"
+    volumes:
+      - ./var/log/nginx:/var/log/nginx
+    networks:
+      - main-network
+
+networks:
+  main-network:
+    # external: true
+    driver: bridge
