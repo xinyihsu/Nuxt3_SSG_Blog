@@ -1,0 +1,52 @@
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("~/assets/fonts/Roboto.woff2") format("woff2"),
+//     url("@/assets/fonts/Roboto.woff") format("woff"); /* 為了兼容性，可以添加多個源 */
+//   font-weight: normal;
+//   font-style: normal;
+//   /* 更多屬性如 font-weight 或 font-style 可以在這裡指定 */
+// }
+
+// @font-face {
+//     font-family: "Sigmar", sans-serif;
+//     src: url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
+//     font-weight: 400;
+//     font-style: normal;
+//     box-sizing: border-box;
+//     unicode-range: U+0000-007F; /* 限制只用於 ASCII（英文字） */
+// }
+
+@font-face {
+    font-family: "HuaKangTi";
+    src: url("/fonts/HuaKangTiFan.otf") format("opentype");
+}
+
+* {
+    // font-family: "Sigmar", "HuaKangTi", sans-serif;
+    font-family: "HuaKangTi", sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  *,:after,:before {
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box
+  }
+
+  body {
+  margin: 0;
+  padding: 0;
+}

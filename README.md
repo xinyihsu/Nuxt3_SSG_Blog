@@ -1,75 +1,17 @@
 # Nuxt3_SSG_Blog
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 整合功能
 
-## Setup
+* Element Plus
+* SCSS
+* UnoCSS
 
-Make sure to install dependencies:
+## 線上Demo
 
-```bash
-# npm
-npm install
+[http://see-all.com.tw:3104](http://see-all.com.tw:3104)
 
-# pnpm
-pnpm install
+## Docker 運行生產環境
 
-# yarn
-yarn install
-
-# bun
-bun install
+```sh
+docker-compose -f docker-compose.prod.yml up -d --build
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
