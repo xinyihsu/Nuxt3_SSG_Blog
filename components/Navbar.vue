@@ -14,9 +14,9 @@
       <el-menu-item index="/schedule">
         <NuxtLink to="/schedule" class="hover:text-gray-300">Schedule</NuxtLink>
       </el-menu-item>
-      <div class="absolute right-4">
+      <!-- <div class="absolute right-4">
         <el-avatar :icon="UserFilled" />
-      </div>
+      </div> -->
     </el-menu>
   </div>
 </template>

@@ -217,7 +217,6 @@ const classSelected = ref<Base.IClass>({
 });
 const selectClass = (_class: Base.IClass) => {
   dialogVisible.value = true;
-  console.log(_class);
   classSelected.value = _class;
 };
 </script>
